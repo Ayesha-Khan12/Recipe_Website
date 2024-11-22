@@ -1,0 +1,87 @@
+
+@media (max-width: 768px){
+    .logo{
+        margin-right: -70px;
+    }
+    .logo span{
+        font-size: 1rem;
+    }
+    .logo p {
+        font-size: 0.75rem;
+    }
+    #nav-item a {
+        font-size: 1rem;
+    }
+    #nav-item {
+        gap: 40px;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+}
+
+@media (max-width: 425px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #nav-item {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #1d0303;
+        top: 95px;
+        left: 0;
+        width: 100%;
+        z-index: 998;
+        padding: 10px 0;
+        height: 600px;
+    }
+    #nav-item.active {
+        display: flex;
+    }
+
+    #icon {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 13px;
+    }
+
+    #hamburger {
+        margin-top: 15px;
+        display: block;
+        margin-left: 150px;
+    }
+    #logo{
+ 
+        margin-left: -60px;
+    }
+    .logo span{
+        font-size: 1.7rem;
+    }
+    .logo p {
+        font-size: 0.85rem;
+    }
+    .top input{
+        margin-left: 70px;
+        width: 200px;
+        height: 40px;
+    }
+    #recipe-list{
+        margin-top: 10px;
+    }
+}
+@media(max-width:320px){
+    .footer-bottom p {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    .footer-bottom span {
+        font-size: 1rem !important;
+    }
+
+}
+
